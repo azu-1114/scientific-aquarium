@@ -1,2 +1,0 @@
-# scientific-aquarium
-azuのコラムサイトのデータ
