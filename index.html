@@ -5,143 +5,278 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <title>Massively by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+<style>
+ #main > .inner {
+    background-color: #D9EFF9 !important;
+  }
+
+ 
+  #main > .inner > section.post.welcome-box {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-left: none !important;
+  }
+
+ 
+  #main > .inner > section.post {
+    background-color: #ffffff !important;
+  }
+
+  .subtag {
+    font-family: 'Cinzel', serif !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  }
+
+.subtag-ja {
+  font-weight: 600;
+  line-height: 1.9;
+  letter-spacing: 0.07em;
+}
+
+.divider-bar{
+  height: 56px !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  background: #2b2b2b !important;
+  display: block;
+}
+
+html, body, #wrapper {
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+}
+
+#wrapper > .bg {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+body {
+  background-image: none !important;
+}
+/* 1. 一番上の大きな看板記事のタイトル */
+.post.featured h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.3 !important;
+}
+
+/* 2. その下の2列に並ぶカード型のタイトル */
+.posts article h2 {
+    font-size: 1.25rem !important; /* ABOUTのサイズ感に近づけるならこれくらい */
+    line-height: 1.4 !important;
+}
+
+/* 3. カード内の説明文（pタグ）も少しだけ調整 */
+.posts article p {
+    font-size: 0.95rem !important; /* 本文より少しだけ小さくしてメリハリを出す */
+    line-height: 1.6 !important;
+}
+</style>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;500&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+</head>
+
+	<body>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <!-- Intro -->
+  <div id="intro">
+    <h1>Scientific Aquarium</h1>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
+    <p class="byline">とっと日和   by azu</p>
+    <p class="tagline">海水魚の長期飼育を考える</p>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <ul class="actions">
+      <li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+    </ul>
+  </div>
 
-				<!-- Main -->
-					<div id="main">
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo">MENU</a>
+  </header>
+
+  <!-- Nav -->
+  <nav id="nav">
+<ul class="links">
+  <li class="active"><a href="index.html">TOP</a></li>
+  <li><a href="columns.html">COLUMN LIST</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="concept.html">CONCEPT</a></li>
+</ul> 
+<ul class="icons">
+    <li><a href="https://x.com/bokkenyan" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+    <li><a href="https://www.instagram.com/bokkenyan/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+    <li><a href="https://note.com/crisp_stilt4294" class="icon brands fa-medium-m" target="_blank"><span class="label">note</span></a></li>
+    <li><a href="https://github.com/azu-1114" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+</ul>
+
+
+  </nav>
+
+  <!-- Main -->
+ <div id="main" >
+
+<section class="post welcome-box" style="text-align: center !important; border-left: none !important; padding: 6rem 0 !important;">
+  <p class="subtag" style="font-family: 'Libre Baskerville', serif !important; text-align: center !important; font-size: 1.4rem !important; display: block !important; margin: 0 auto 2rem auto !important;">
+    Welcome to my homepage.<br><br>
+    A collection of columns on long-term marine aquarium keeping.<br><br>
+   <span class="since" style="font-size: 1.0rem; color: #4682b4; font-weight: bold;">since 2026</span>
+  </p>
+<br>
+  <p class="subtag-ja" style="font-family: 'Noto Serif JP', serif !important; text-align: center !important; font-size: 1.1rem !important; display: block !important; margin: 0 auto 4rem auto !important;">
+    同じ志の方の一助になれば幸いです
+  </p>
+</section>
+<div class="divider-bar"></div>
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+<article class="post featured">
+    <header class="major">
+        <p>アクアリウムにおける様々な話題をコラムにまとめています。</p>
+    </header>
+    <a href="columns.html" class="image main"><img src="images/columnlist-1.jpg" alt="コラム記事一覧" /></a>
+    <ul class="actions special">
+        <li><a href="columns.html" class="button large">一覧にすすむ</a></li>
+    </ul>
+</article>
+
+<section class="posts">
+
+    <article>
+        <header>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第１回：人工餌の限界を探る</a></h2>
+        </header>
+        <a href="post/food-1.html" class="image fit"><img src="images/food-1-2.jpg" alt="人工餌の限界を探る" /></a>
+        <p>現代のマリンアクアリウムにおける「人工餌」の問題点を様々な側面から深堀りしていきます。</p>
+        <ul class="actions special">
+            <li><a href="post/food-1.html" class="button">記事を読む</a></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第２回：海水魚のための餌とはなにか？</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic03.jpg" alt="" /></div>
+        <p>様々なトラブルの末、学びや試行錯誤を経て生餌中心の給餌に変換していった経緯を振り返ります。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第３回：生餌のメリットⅠ</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic04.jpg" alt="" /></div>
+        <p>嗜好性・消化性、そして必須脂肪酸であるDHA/EPAの重要性などの面から解説します。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第４回：生餌のメリットⅡ</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic05.jpg" alt="" /></div>
+        <p>必須遊離アミノ酸のタウリンや海産機能性色素などの解説をします。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第５回：生餌のメリットⅢ</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic06.jpg" alt="" /></div>
+        <p>天然型栄養素の優位性と腸内細菌叢への可能性を探ります。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第６回：生餌のデメリットと<br />安全な冷凍餌の選び方</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic07.jpg" alt="" /></div>
+        <p>生餌や冷凍餌の取扱によるリスク、安全に給餌するコツなどを伝授。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第７回：海藻質補給は？</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic08.jpg" alt="" /></div>
+        <p>草食性の強い魚たちのための海藻粉・海苔・人工餌の活用</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+    <article>
+        <header>
+            <span class="date">Coming Soon</span>
+            <h2><a href="post/food-1.html">【海水魚の餌】<br />
+            第８回：私がツノナシオキアミを<br />魚たちの主食に選んだ理由</a></h2>
+        </header>
+        <div class="image fit"><img src="images/pic09.jpg" alt="" /></div>
+        <p>最高レベルの餌生物であるツノナシオキアミの栄養的魅力にせまります。</p>
+        <ul class="actions special">
+            <li><span class="button disabled">公開準備中</span></li>
+        </ul>
+    </article>
+
+</section>
+
+
+
 
 						<!-- Footer -->
 							<footer>
@@ -161,59 +296,36 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+
+<footer id="footer" style="width: 68em; max-width: 90%; margin: 2rem auto; border: 1px solid #dee2e6; border-radius: 4px;">
+    <section>
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">お名前</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                    <label for="email">メールアドレス</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message">メッセージ</label>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="メッセージを送る" /></li>
+            </ul>
+        </form>
+    </section>
+</footer>
 
 				<!-- Copyright -->
 					<div id="copyright">
 						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
-
+ 
 			</div>
 
 		<!-- Scripts -->
