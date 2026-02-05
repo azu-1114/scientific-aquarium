@@ -1,5 +1,6 @@
+
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
 
 /*
 	Massively by HTML5 UP
@@ -147,12 +148,13 @@ input, select, textarea {
 		color: #212931;
 	}
 
-	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
-		font-size: 1rem;
-		line-height: 2.375;
-	}
+body, input, select, textarea {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.0;
+}
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -3227,20 +3229,16 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
-			z-index: -1;
-		}
+#wrapper > .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;           
+    height: 100vh;          
+    background-repeat: no-repeat;
+    z-index: -1;            
+    transform: translateZ(0); 
+}
 
 			#wrapper > .bg.fixed {
 				position: fixed;
@@ -3449,13 +3447,15 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+	@media screen and (max-width: 980px) {
 
-			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
-			}
-
+#intro {
+    padding: 4rem 4rem 2rem 4rem;
+    min-height: 90vh;
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
 				#intro p br {
 					display: none;
 				}
@@ -3615,15 +3615,15 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: #2d2d2d !important;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		width: 100%; 
+                max-width: 56rem;
 		z-index: 2;
 	}
 
@@ -3711,7 +3711,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1.2rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3722,7 +3722,7 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: rgba(255, 255, 255, 0.15) !important;
 				}
 
 					#nav ul.links li.active a {
@@ -3760,10 +3760,9 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 56rem;
 		z-index: 2;
 	}
-
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
@@ -4687,3 +4686,227 @@ input, select, textarea {
 		}
 
 	}
+body {
+  background: transparent !important;
+}
+
+#wrapper {
+  background: transparent !important;
+}
+
+#wrapper > .bg {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-image: url("../../images/bg.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: -1 !important;
+}
+
+#wrapper > .bg:before,
+#wrapper > .bg:after {
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+}
+body,
+#wrapper {
+  color: #111 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000 !important;
+}
+
+a {
+  color: #003366; 
+}
+
+.welcome-box {
+  background: #e8f3f8; 
+  padding: 5rem 2rem;
+  border-radius: 8px;
+}
+
+#wrapper > .bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25); 
+  z-index: -1; 
+  pointer-events: none;
+}
+
+#wrapper > .bg {
+  z-index: 0 !important;
+}
+
+#wrapper > .bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+  pointer-events: none;
+}
+
+#intro h1,
+#intro header h1,
+#intro h1 strong,
+#intro header h1 strong {
+  !important;
+  text-shadow:
+    -2px -2px 0 rgba(245,248,250,0.80),
+     0px -2px 0 rgba(245,248,250,0.80),
+     2px -2px 0 rgba(245,248,250,0.80),
+    -2px  0px 0 rgba(245,248,250,0.80),
+     2px  0px 0 rgba(245,248,250,0.80),
+    -2px  2px 0 rgba(245,248,250,0.80),
+     0px  2px 0 rgba(245,248,250,0.80),
+     2px  2px 0 rgba(245,248,250,0.80),
+     0px  5px 12px rgba(0,0,0,0.10) !important;
+}
+
+#intro h1,
+#intro h1 a {
+	color: rgba(85, 115, 145, 0.78) !important;
+	-webkit-text-stroke: 1.6px rgba(245, 248, 250, 0.65) !important;
+	text-stroke: 1.6px rgba(245, 248, 250, 0.65) !important;
+}
+
+#intro p {
+	color: rgba(85, 115, 145, 0.72) !important;
+}
+
+#intro h1 {
+	text-transform: none !important;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+#intro > p {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+
+  color: inherit !important;
+}
+
+#intro .byline,
+#intro .tagline {
+  color: #ffffff !important;
+  font-weight: 700;
+  text-shadow:
+    -1px -1px 0 #5f748a,
+     1px -1px 0 #5f748a,
+    -1px  1px 0 #5f748a,
+     1px  1px 0 #5f748a;
+}
+
+@media screen and (max-width: 736px) {
+  #intro h1 {
+    font-size: 3.2rem !important; 
+    line-height: 1.05 !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  #intro .byline {
+    font-size: 1.4rem !important; 
+  }
+
+  #intro .tagline {
+    font-size: 1.2rem !important;
+  }
+
+#main,
+#main p,
+#main li,
+#main ul,
+#main section,
+#main article,
+#main header,
+#main .post,
+#main .post p,
+#main .post li {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+
+.post p {
+  border-top: none;
+}
+
+#wrapper {
+  max-width: 56rem !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+}
+
+#nav {
+  position: relative !important; 
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  margin: 0 auto !important;
+}
+
+#main {
+  width: 100% !important;
+}
+
+#main .welcome {
+  text-align: center !important;
+  display: block !important;
+}
+
+
+#main .welcome .subtag {
+  font-family: "Libre Baskerville", serif !important;
+  text-align: center !important;
+  display: block !important;
+  font-size: 1.2rem !important;
+  line-height: 1.8 !important;
+  margin: 3rem auto 1rem auto !important;
+}
+
+#main .welcome .subtag-ja {
+  font-family: "Noto Serif JP", serif !important;
+  text-align: center !important;
+  display: block !important;
+  font-size: 0.95rem !important;
+  margin-bottom: 3rem !important;
+}
+
+#nav > ul.links > li > a {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+
+#nav > ul.links > li.active > a {
+    color: #00ced1 !important;
+}
+
+
+#nav > ul.links > li > a:hover {
+    color: #00ced1 !important;
+    text-decoration: none;
+}
+
+
+#nav > ul.icons > li > a {
+    color: #ffffff !important;
+}
+
+#intro {
+  background-attachment: fixed !important;
+}
