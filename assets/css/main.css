@@ -4922,21 +4922,3 @@ h1 {
         background-position: center !important;
         background-size: cover !important;
     }
-}
-
-#disqus_thread {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ccc;
-}
-
-/* カラフルさを抑える */
-#disqus_thread iframe {
-  filter: grayscale(20%);
-}
-
-/* タイトルやカウントの主張を弱める */
-#disqus_thread h3,
-#disqus_thread .comment-count {
-  font-weight: normal;
-}
