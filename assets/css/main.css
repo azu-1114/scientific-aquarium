@@ -4960,3 +4960,12 @@ h1 {
   border: 0 !important;
   display: block !important;
 }
+
+/* PCだけ：Cusdis iframeの高さ不足で中スクロールになる対策 */
+@media screen and (min-width: 981px) {
+  #cusdis_thread iframe {
+    height: 1100px !important;  /* まず大きめに */
+    min-height: 1100px !important;
+    overflow: visible !important;
+  }
+}
