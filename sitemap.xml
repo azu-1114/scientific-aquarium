@@ -5,11 +5,39 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.scientific-aquarium.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.scientific-aquarium.com/concept.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.scientific-aquarium.com/columns.html</loc>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-1.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-2.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-3.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-4.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-5.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.scientific-aquarium.com/post/food-6.html</loc>
+    <priority>0.6</priority>
   </url>
 </urlset>
