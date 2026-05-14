@@ -76,4 +76,8 @@
     <loc>https://www.scientific-aquarium.com/post/health-2.html</loc>
     <priority>0.6</priority>
   </url>
+    <url>
+    <loc>https://www.scientific-aquarium.com/post/physiology-4.html</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
