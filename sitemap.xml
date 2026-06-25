@@ -84,4 +84,8 @@
     <loc>https://www.scientific-aquarium.com/post/trivia-1.html</loc>
     <priority>0.6</priority>
   </url>
-</urlset>
+      <url>
+    <loc>https://www.scientific-aquarium.com/post/physiology-5.html</loc>
+    <priority>0.6</priority>
+  </url>
+  </urlset>
