@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>【海水魚の餌】 第３回：海水魚の餌としての生餌のメリットⅠ　―嗜好性・消化性、そしてDHA/EPAの重要性 - Scientific Aquarium</title>
+		<title>【海水魚の餌】第３回：生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性 - Scientific Aquarium</title>
 
 		<meta name="description" content="海水魚飼育における生餌の嗜好性や消化性、そして必須脂肪酸であるDHA/EPAの重要性について解説します。">
 
@@ -10,44 +10,96 @@
 		<link rel="stylesheet" href="../assets/css/main.css" />
 
 		<style>
-/* 1. 箱の幅を48remにする */
 			#main > .post {
 				max-width: 48rem;
 				margin: 0 auto;
 			}
-.post p {
-    font-size: 1.1rem !important;
-    line-height: 2.2 !important;
-    text-align: justify;
-    margin-bottom: 2em; 
-    margin-top: 4rem !important; 
-}
-
-/* 3. タイトル(h1)を強制的に人間サイズにする */
-#main .post > header.major > h1 {
-    font-size: 1.6rem !important;
-    line-height: 1.4 !important;
-    text-align: center !important;
-    letter-spacing: normal !important;
-    margin: 0 auto 4rem auto !important;
-}
-			/* 4. フォントの設定 */
+			.post p {
+				font-size: 1.1rem !important;
+				line-height: 2.2 !important;
+				text-align: justify;
+				margin-bottom: 2em; 
+				margin-top: 4rem !important; 
+			}
+			#main .post > header.major > h1 {
+				font-size: 1.6rem !important;
+				line-height: 1.4 !important;
+				text-align: center !important;
+				letter-spacing: normal !important;
+				margin: 0 auto 4rem auto !important;
+			}
 			body, input, select, textarea {
 				font-family: "Noto Sans JP", sans-serif;
 			}
-
-			/* その他の細かいデザイン（画像やフッター） */
 			.post-image-container { text-align: center; margin: 2em 0; }
 			.post-image-container img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; }
-			.post-image-caption { font-size: 0.8em; color: #666; margin-top: 0.5em; }
+			.post-image-caption { font-size: 0.8em; color: #666; margin-top: 0.5em; line-height: 1.6; }
 			hr { margin: 3em 0; }
 			.footer-note { font-size: 0.8em; color: #777; margin-top: 2em; border-top: 1px solid #eee; padding-top: 1em; }
+			#main .post > header.major {
+				padding-bottom: 2.0rem !important;
+				margin-bottom: 0 !important;
+				border-bottom: none !important;
+			}
+			.breadcrumb {
+				font-size: 0.85rem;
+				margin-bottom: 3.5rem;
+				color: #666;
+				text-align: left;
+			}
+			.breadcrumb a {
+				text-decoration: none;
+				color: #4682b4;
+				border-bottom: none;
+			}
+			.breadcrumb a:hover {
+				color: #2c5070;
+			}
 
-#main .post > header.major {
-    padding-bottom: 2.0rem !important;
-    margin-bottom: 0 !important;
-    border-bottom: none !important;
-}
+			/* 箇条書き（リスト）の文字サイズと行間を本文（pタグ）と揃える */
+			.post ul li, .post ol li {
+				font-size: 1.1rem !important;
+				line-height: 2.2 !important;
+				margin-bottom: 0.8rem;
+			}
+
+			/* --------------------------------------------------
+			 * 新・見出し階層スタイル定義（SEO最適化＆統一デザイン）
+			 * -------------------------------------------------- */
+			/* H2: 小タイトル・章見出し（下線なし・すっきりシンプル） */
+			.post h2 {
+				font-size: 1.4rem;
+				font-weight: bold;
+				color: #2c5070;
+				margin-top: 4.5rem;
+				margin-bottom: 2rem;
+				border-bottom: none !important;
+				text-align: left;
+			}
+
+			/* H3: 項タイトル（お気に入りの「左青ライン」を完全継承） */
+			.post h3 {
+				font-size: 1.25rem;
+				font-weight: bold;
+				color: #333;
+				margin-top: 3.5rem;
+				margin-bottom: 1.5rem;
+				padding-left: 0.5rem;
+				border-left: 3px solid #4682b4;
+				text-transform: none !important;
+			}
+
+			/* H4: 箇条書き・各論・強調（しっかり大きく太字で強調） */
+			.post h4 {
+				font-size: 1.25rem;
+				font-weight: bold;
+				color: #333;
+				margin-top: 2.8rem;
+				margin-bottom: 1.2rem;
+				padding-left: 0.2rem;
+				text-transform: none !important;
+			}			
+
 		</style>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DGV6CXTYG"></script>
@@ -58,35 +110,47 @@
   gtag('config', 'G-1DGV6CXTYG');
 </script>
 
+<!-- =========================
+     OGP / X Card
+     ========================= -->
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Scientific Aquarium とっと日和 by azu">
 <meta property="og:locale" content="ja_JP">
-<meta property="og:title" content="【海水魚の餌】 第３回：生餌のメリットⅠ ー嗜好性・消化性、そしてDHA/EPAの重要性">
-<meta property="og:description" content="海洋生物を素材とした“生餌”が持つメリットについて、嗜好性、消化性、そして必須脂肪酸DHA/EPAの観点から具体的に掘り下げます。">
+<meta property="og:title" content="【海水魚の餌】第３回：生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性">
+<meta property="og:description" content="海水魚飼育における生餌の嗜好性や消化性、そして必須脂肪酸であるDHA/EPAの重要性について解説します。">
 <meta property="og:url" content="https://www.scientific-aquarium.com/post/food-3.html">
 <meta property="og:image" content="https://www.scientific-aquarium.com/images/column-3.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="【海水魚の餌】 第３回：生餌のメリットⅠ ー嗜好性・消化性、そしてDHA/EPAの重要性">
-<meta name="twitter:description" content="海洋生物を素材とした“生餌”が持つメリットについて、嗜好性、消化性、そして必須脂肪酸DHA/EPAの観点から具体的に掘り下げます。">
+<meta name="twitter:title" content="【海水魚の餌】第３回：生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性">
+<meta name="twitter:description" content="海水魚飼育における生餌の嗜好性や消化性、そして必須脂肪酸であるDHA/EPAの重要性について解説します。">
 <meta name="twitter:image" content="https://www.scientific-aquarium.com/images/column-3.jpg">
 
+<!-- =========================
+     構造化データ（JSON-LD）
+     ========================= -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "【海水魚の餌】第３回：生餌のメリットⅠ ー嗜好性・消化性、そしてDHA/EPAの重要性",
+  "headline": "【海水魚の餌】第３回：生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性",
   "description": "海水魚飼育における生餌の嗜好性や消化性、そして必須脂肪酸であるDHA/EPAの重要性について解説します。",
   "url": "https://www.scientific-aquarium.com/post/food-3.html",
   "image": "https://www.scientific-aquarium.com/images/column-3.jpg",
   "datePublished": "2026-02-12",
-  "dateModified": "2026-07-26",
+  "dateModified": "2026-10-15",
   "author": {
     "@type": "Person",
     "name": "azu",
-    "url": "https://scientific-aquarium.com"
+    "sameAs": "https://www.scientific-aquarium.com/about.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Scientific Aquarium",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.scientific-aquarium.com/images/column-3.jpg"
+    }
   },
   "citation": [
     {
@@ -95,31 +159,31 @@
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Kalaiselvan & Ranjan, 2023"
+      "name": "Kalaiselvan & Ranjan, 2023 (Feeding attractants in aquaculture: A review)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Yue et al., 2022"
+      "name": "Yue et al., 2022 (Dietary feed attractants promote growth performance and feed intake in teleost fish)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Roda et al., 2024"
+      "name": "Roda et al., 2024 (Chemical cues and feeding stimulation in marine organisms)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Winberg et al., 1997"
+      "name": "Winberg et al., 1997 (Serotonergic activation in fish during feeding)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Lepage et al., 2002"
+      "name": "Lepage et al., 2002 (Dopaminergic and serotonergic responses to food intake in teleosts)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "辻ほか, 1993"
+      "name": "辻ほか, 1993 (海産魚介類筋肉中の筋形質タンパク質とその消化性)"
     },
     {
       "@type": "ScholarlyArticle",
-      "name": "Tocher, 2010 (Fatty acid metabolism in fishes)"
+      "name": "Tocher, 2010 (Fatty acid metabolism in squalene and marine fish: a review)"
     }
   ]
 }
@@ -133,42 +197,47 @@
 					</header>
 <nav id="nav">
 						<ul class="links">
-							<li><a href="/index.html">TOP</a></li>
-							<li class="active"><a href="/columns.html">Column list</a></li>
-							<li><a href="/about.html">ABOUT</a></li>
-							<li><a href="/concept.html">CONCEPT</a></li>
+							<li><a href="../index.html">TOP</a></li>
+							<li class="active"><a href="../columns.html">Column list</a></li>
+							<li><a href="../about.html">ABOUT</a></li>
+							<li><a href="../concept.html">CONCEPT</a></li>
 						</ul>
 					</nav>
 
 				<div id="main">
 						<section class="post">
 								<header class="major">
-									<h1>【海水魚の餌】第３回：<br />生餌のメリットⅠ　ー嗜好性・消化性、そしてDHA/EPAの重要性</h1>
-
+									<nav class="breadcrumb">
+										<a href="../index.html">ホーム</a> ＞ <a href="../columns.html">コラム一覧</a> ＞ <a href="../columns.html">【海水魚の餌】</a> ＞ 第３回：生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性
+									</nav>
+									<h1>【海水魚の餌】第３回：<br />生餌のメリットⅠ ―嗜好性・消化性、そしてDHA/EPAの重要性</h1>
 <p style="text-align: center; margin-top: -1rem; margin-bottom: 2rem;">
-    <span style="font-size: 0.9rem; color: #4682b4; font-weight: bold; font-family: 'Libre Baskerville', serif;">
-        Published: 2026.02.12
-    </span>
-    <span style="margin: 0 0.8em; color: #4682b4;">|</span>
-    <span style="font-size: 0.9rem; color: #4682b4; font-weight: bold; font-family: 'Libre Baskerville', serif;">
-        Last Updated: 2026.07.26
-    </span>
-</p>
+        <span style="font-size: 0.9rem; color: #4682b4; font-weight: bold; font-family: 'Libre Baskerville', serif;">
+            Published: 2026.02.12
+        </span>
+        <span style="margin: 0 0.8em; color: #4682b4;">|</span>
+        <span style="font-size: 0.9rem; color: #4682b4; font-weight: bold; font-family: 'Libre Baskerville', serif;">
+            Last Updated: 2026.10.15
+        </span>
+    </p>
 								</header>
 
-<p>前々回は<a href="https://www.scientific-aquarium.com/post/food-1.html" target="_blank">「人工飼料の限界を探る」</a>掘り下げ、<br />
-前回はそこから<a href="https://www.scientific-aquarium.com/post/food-2.html" target="_blank">「冷凍餌中心の給餌スタイル」</a>へとシフトしていった、<br />
+<p>前々回は<a href="https://www.scientific-aquarium.com/post/food-1.html">「人工飼料の限界を探る」</a>掘り下げ、<br />
+前回はそこから<a href="https://www.scientific-aquarium.com/post/food-2.html">「冷凍餌中心の給餌スタイル」</a>へとシフトしていった、<br />
 私自身の遍歴と試行錯誤についてお話しました。</p>
 
-<p>そして今回からは、いよいよ「海水魚の餌」としての<br />
-<strong>海洋生物を素材とした“生餌（冷凍餌・活餌を含む。以下「生餌」と表記します）”</strong> が持つメリットについて、具体的に掘り下げていきたいと思います。</p>
+<p>そして今回からは、いよいよ「海水魚の餌」としての</p>
 
-<p>ここで「生餌・冷凍餌・活餌」をあえて一括りに扱うのは、今回のテーマが“素材そのものが本来もつ、栄養性や機能性”に焦点を当てているためです。本質的に、これらはどれも魚たちにとって<u><strong>非加熱・未乾燥の「自然由来の“生”の食材だからこそ」</strong></u>であり、その意味で共通する性質を持っています。</p>
+<h4><strong>非加熱の海洋生物を素材とした“生餌（冷凍餌・活餌を含む。以下「生餌（なまえさ）」と表記します）” が持つメリットについて、</strong></h4>
 
-<p>生物にとって餌は、ただのエネルギー補給ではなく、生理機能や免疫応答、さらには神経系にも複雑に深く関わっています。そんなことに、少しでも気づいていただけるきっかけになれば嬉しいなと思います。</p>
+<p>具体的に掘り下げていきたいと思います。</p>
 
-<p>今から約10年前、私は海水魚飼育において、人工飼料中心の給餌から“生餌メイン”のスタイルへと切り替えました。<br />
-いろいろ悩み、学び、<strong>納得したうえ</strong>で、8年前からは現在の「CAS冷凍餌料中心」のスタイルに落ち着いています。<br />
+<p>ここで「生餌・冷凍餌・活餌」をあえて一括りに扱うのは、今回のテーマが“素材そのものが本来もつ、栄養性や機能性”に焦点を当てているためです。本質的に、これらはどれも魚たちにとって<strong>非加熱・未乾燥の「自然由来の“生（なま）”の食材だからこそ」</strong>であり、その意味で共通する性質を持っています。</p>
+
+<p><strong>生物にとって餌は、ただのエネルギー補給ではなく、生理機能や免疫応答、さらには神経系にも複雑に深く関わっています。</strong>そんなことに、少しでも気づいていただけるきっかけになれば嬉しいなと思います。</p>
+
+<p>今から約10年前、私は海水魚飼育において、人工餌中心の給餌から“生餌メイン”のスタイルへと切り替えました。<br />
+<strong>いろいろ悩み、学び、納得したうえで、約9年前からは現在の「CAS冷凍餌料中心」のスタイルに落ち着いています。</strong>（2026年2月現在）<br />
 十分な実績も積んだと感じており、その上で筆を執っています</p>
 
 <p>今回も文献の引用部分ではなるべくエビデンスベースで、主観を排除してお話しして行きます。<br />
@@ -176,7 +245,7 @@
 
 <hr />
 
-<h3>１．嗜好性が高い─必要な栄養を選ぶしくみ</h3>
+<h2><strong>１．嗜好性が高い─必要な栄養を選ぶしくみ</strong></h2>
 
 <p>なんといっても、生餌の最大のメリットは<strong>嗜好性の高さ</strong>ではないでしょうか？<br />
 実際に海水魚の餌付けに重宝している人も多いと思います。</p>
@@ -187,92 +256,116 @@
 <p>いきなり人工餌を与えるより遥かに食べてくれる確率は高くなります。<br />
 何か、<strong>食欲を刺激し、自然な摂餌行動を誘発する要素</strong>が、生餌にはあるのだと思います。</p>
 
-<p>私自身は、もうかれこれ9年前から、<strong>人工飼料に無理やり餌付けることをやめました。</strong>その結果海水魚飼育が随分と楽になったと感じています。（笑）<br />
-（──とはいえ、冷凍餌すら食べない魚に出会うこともあります。その際は、迷わず最速で活餌を入手し、与えるようにしています。）</p>
+<p>私自身は、もうかれこれ10年前から、<strong>人工飼料に無理やり餌付けることをやめました。</strong>その結果海水魚飼育が随分と楽になったと感じています。（笑）<br />
+（──とはいえ、冷凍餌すら食べない魚に出会うこともあります。その際は、迷わず最速で活餌を入手し、与えるようにしています。）(2026年2月現在)</p>
 
-<p><strong>魚は決して、目の前にあるものを何でも食べているわけではありません。</strong><br />
-むしろ、餌を驚くほど細かく見分けています。長年観察してきた中で、私は何度も次のような行動を目にしてきました。<br />
-・人工飼料と生餌を瞬時に見分ける驚異的な選別力！（人間には到底まねできません）<br />
-・一度美味しくないと判断した餌は二度と口に入れない記憶力の高さ<br />
-・美味しいと思った餌はしっかり記憶されていて、優先的に食べる<br />
-・同じ魚種でも、美味しいと感じる好みに個体差がある<br />
-・口に入れた瞬間に吐き出す能力がある（あまりに瞬時なので、味ではなく口触りで判断している可能性もあります）</p>
+<p><strong>魚は決して、目の前にあるものを何でも食べているわけではないのですよね。</strong><br />
+むしろ、餌を驚くほど細かく見分けています。長年観察してきた中で、私は何度も次のような行動を目にしてきました。</p>
 
+<ul>
+<li>人工飼料と生餌を瞬時に見分ける驚異的な選別力！（人間には到底まねできません）</li>
+<li>一度美味しくないと判断した餌は二度と口に入れない記憶力の高さ</li>
+<li>美味しいと思った餌はしっかり記憶されていて、優先的に食べる</li>
+<li>同じ魚種でも、美味しいと感じる好みに個体差がある</li>
+<li>口に入れた瞬間に吐き出す能力がある（あまりに瞬時なので、味ではなく口触りで判断している可能性もあります）</li>
+</ul>
 
-<p><strong>味覚・嗅覚だけでなく、視覚・触覚・記憶力まで総動員して摂餌する</strong>──魚がどれほど賢い生き物か、思い知らされる場面に何度も出会ってきました。<br />
+<h4><strong>味覚・嗅覚だけでなく、視覚・触覚・記憶力まで総動員して摂餌する──</strong></h4>
+
+<p>もう少しかいつまんでお話すると</p>
+
+<h3><strong>①嗅覚</strong></h3>
+
+<p>水中に溶け出したアミノ酸などの化学物質を<strong>鼻腔の嗅上皮で感知</strong>し、水流に乗って届く餌の手がかりを捉えます。</p>
+
+<h3><strong>②味覚</strong></h3>
+
+<p><strong>口腔内だけでなく、唇やヒゲ、体表などにも味蕾を持つ魚種</strong>があり、口に入れる前から餌の味を確かめることができます。</p>
+
+<h3><strong>③視覚</strong></h3>
+
+<p>餌の形や大きさ、色、動きなどを識別し、特に視覚に依存する魚種では、摂餌行動を引き起こす重要な役割を担っています。</p>
+
+<h3><strong>④学習・記憶</strong></h3>
+
+<p>過去に食べた餌の感覚情報と経験を結びつけ、次に餌を選ぶ際にも役立てています。</p>
+
+<p>これらの感覚への依存度は<strong>「食性」によって大きく異なり</strong>、さらに、<strong>同じような食性でも昼行性・夜行性、採餌場所によっても違います。</strong><br />
+そして、味覚受容体や嗅覚受容体の種類・分布にも魚種ごとに大きな違いがあることも分かっています。</p>
+
+<p>魚がどれほど賢い生き物で優れた身体能力を持っているのか、思い知らされる場面に何度も出会ってきました。<br />
 そして不思議なことに、無理やり人工餌に餌付けなくても、数ヶ月〜数年後に突然食べるようになることも、何度も経験しています。</p>
 
-<br>
-
 <div class="post-image-container">
-    <a href="../images/food-3-1.jpg" target="_blank">
-        <img src="../images/food-3-1.jpg" alt="魚が餌を好んで摂餌する様子を示した嗜好性のイラスト">
+    <a href="https://www.scientific-aquarium.com/images/food-3-1.jpg" target="_blank">
+        <img src="https://www.scientific-aquarium.com/images/food-3-1.jpg" alt="魚が餌を好んで摂餌する様子を示した嗜好性のイラスト">
     </a>
 </div>
 
-<br>
-
+<h3><strong>■「摂餌誘引物質」</strong></h3>
 
 <p>一方で、科学の世界でも「魚が感じる美味しさ」の研究が進められています。<br />
 水産分野では、<strong>各餌生物が持つ「摂餌誘引物質」</strong>の解明が進んでおり、「どんな化学物質が魚に『食べたい』と思わせるのか」が、少しずつ明らかになってきています（参考：『養殖の餌と水』）。</p>
 
-<p>誘引物質は単なる“味付け”のように思われがちですが、実際には、<strong>消化管機能・代謝・成長・免疫などの生理機能にも影響を及ぼす</strong>ことが分かってきました。<br />
+<p>誘引物質は単なる“味付け”のように思われがちですが、実際には、<strong>消化管機能・代謝・成長・免疫などの生理機能にも影響を及ぼす</strong>ことが分かってきました。</p>
 
-<p>
-特に注目すべきは、<strong>魚たちの主要な餌となる海産無脊椎動物</strong>が持つ成分です。<br>
-実は、甲殻類や貝類、頭足類など多くの海産無脊椎動物は、高濃度の海水に囲まれた環境でも細胞が萎縮しないよう、<strong>細胞内の浸透圧を調節するために、遊離アミノ酸（グリシン、アラニン、タウリン、グルタミン酸など）</strong>を大量に蓄えています。<br>
-これらの遊離アミノ酸は、浸透圧調節物質であると同時に、旨味や甘味を生み出す呈味成分としても知られています。<br>
-つまり、<strong>魚が感じる「美味しさ」の正体は、海産無脊椎動物が生命維持のために蓄積している遊離アミノ酸</strong>にあります。<br>
-浸透圧調整について詳しくはこちらをご覧ください。<a href="https://www.scientific-aquarium.com/post/physiology-4.html">【海水魚の生理】第４回：海水魚の浸透圧調整について ―高度な体内テクノロジー</a><br>
-魚は、自らの生命維持に不可欠な栄養素がそこにあることを、アミノ酸の「匂い」や「味」を通じて本能的に察知しているのでしょう。
-</p>
-
+<p>特に注目すべきは、<strong>魚たちの主要な餌となる海産無脊椎動物</strong>が持つ成分です。<br />
+実は、甲殻類や貝類、頭足類など多くの海産無脊椎動物は、高濃度の海水に囲まれた環境でも細胞が萎縮しないよう、<strong>細胞内の浸透圧を調節するために、遊離アミノ酸（グリシン、アラニン、タウリン、グルタミン酸など）</strong>を大量に蓄えています。<br />
+これらの遊離アミノ酸は、浸透圧調節物質であると同時に、旨味や甘味を生み出す呈味成分としても知られています。<br />
+つまり、<strong>魚が感じる「美味しさ」の正体は、海産無脊椎動物が生命維持のために蓄積している遊離アミノ酸</strong>にあります。<br />
+浸透圧調整について詳しくはこちらをご覧ください。<a href="https://www.scientific-aquarium.com/post/physiology-4.html">【海水魚の生理】第４回：海水魚の浸透圧調整について ―高度な体内テクノロジー</a><br />
+魚は、自らの生命維持に不可欠な栄養素がそこにあることを、アミノ酸の「匂い」や「味」を通じて本能的に察知しているのでしょう。</p>
 
 <p>つまり「美味しい＝嗜好性が高い」ことは、単なる摂餌行動の問題ではなく、<strong>魚の体が必要としている栄養素が反映されている</strong>可能性があるということです。<br />
 <strong>美味しさは、生理機能全体に影響する“栄養的メッセージ”なのかもしれません</strong>（Kalaiselvan & Ranjan, 2023；Yue et al., 2022；Roda et al., 2024 ほか）。</p>
 
+<h3><strong>■「幸せホルモン」</strong></h3>
+
 <p>また、<strong>「美味しいと感じる」と幸せホルモン</strong>（セロトニン・ドーパミン）が分泌され、魚の<strong>精神安定や幸福感</strong>につながると考えられています。<br />
 魚類でもセロトニン・ドーパミン神経系が存在し、摂餌時に活性化することが示されています（Winberg et al., 1997; Lepage et al., 2002）。つまり、神経学的には幸福感・快感に相当する状態が生じていると考えられるのです。</p>
 
-<p><strong>必要な栄養だからこそ、美味しいと感じるよう進化してきた</strong>──魚たちの嗜好性は、単なる好き嫌いではなく、生命維持を支えるための重要な生理機能のひとつなのです。</p>
+<h4><strong>必要な栄養だからこそ、美味しいと感じるよう進化してきた──</strong></h4>
+
+<p>魚たちの嗜好性は、単なる好き嫌いではなく、生命維持を支えるための重要な生理機能のひとつなのです。</p>
 
 <hr />
 
-<h3>２．消化が良いー優しい食べ物</h3>
+<h2><strong>２．消化が良い―優しい食べ物</strong></h2>
 
 <p>これは、<strong>私が生餌を「最も高く評価しているポイント」でもあります</strong>。<br />
-<a href="https://www.scientific-aquarium.com/post/food-1.html" target="_blank">「第1回：人工飼料の限界を探る」</a>でも触れたように、<strong>熱加工されたタンパク質をうまく消化・吸収できない魚</strong>がいたり、<strong>穀物由来の成分の消化を苦手とする魚</strong>がいることが分かってきています。</p>
+<a href="https://www.scientific-aquarium.com/post/food-1.html">「第1回：人工飼料の限界を探る」</a>でも触れたように、<strong>熱加工されたタンパク質をうまく消化・吸収できない魚</strong>がいたり、<strong>穀物由来の成分の消化を苦手とする魚</strong>がいることが分かってきています。</p>
 
-<p>その点、生餌は総じて<strong>消化に優れている</strong>ことが知られています。</p>
+<p>その点、</p>
 
-<p>たとえば、海産魚介類の筋肉には<strong>水溶性タンパク質（筋形質タンパク質）</strong>が多く含まれ、総タンパク質の20〜50％を占めると報告されています。<br />
+<h4><strong>生餌は総じて消化・吸収に優れていることが知られています。</strong></h4>
+
+<h3><strong>■水溶性タンパク質</strong></h3>
+
+<p>たとえば、海産魚介類の筋肉には<strong><u>水溶性タンパク質</u>（筋形質タンパク質）</strong>が多く含まれ、総タンパク質の20〜50％を占めると報告されています。<br />
 これら<strong>筋形質タンパク質は水に溶けやすく、消化酵素に触れやすいため、消化吸収に優れている</strong>とされています（辻ほか, 1993）。</p>
 
-<p>また、生餌には前章でも触れたとおり<strong>遊離アミノ酸（FAA）が豊富に含まれており、</strong>これらは魚の摂餌を促すだけでなく、<strong>消化を必要とせずそのまま吸収</strong>される栄養源です。</p>
+<p>また、生餌には前章でも触れたとおり<strong><u>遊離アミノ酸</u>（FAA）が豊富に含まれており、</strong>これらは魚の摂餌を促すだけでなく、<strong>消化を必要とせずそのまま吸収</strong>される栄養源です。</p>
 
-<p>さらに、<strong>生餌には「内在型プロテアーゼ」などの自己消化酵素が存在しており、餌生物の死後の自己分解（autolysis）によってタンパク質が低分子のペプチドやアミノ酸へと分解されていきます。</strong><br />
+<h3><strong>■自己消化酵素</strong></h3>
+
+<p>さらに、<strong>生餌には<u>「内在型プロテアーゼ」などの自己消化酵素</u>が存在しており、餌生物の死後の自己分解（autolysis）によってタンパク質が低分子のペプチドやアミノ酸へと分解されていきます。</strong><br />
 このプロセスによって、<strong>魚自身の消化機能に頼らずとも、あらかじめ分解された栄養を効率よく吸収することが可能</strong>になります（恒星社厚生閣『養殖の餌と水』）。</p>
 
 <p>とくに、アミやオキアミといった<strong>プランクトン性の甲殻類</strong>はプロテアーゼ活性が高いことが知られており、<strong>栄養効率の良い餌生物として古くから利用</strong>されてきました（同上）。<br />
-私が<strong>ツノナシオキアミを魚たちの主食としている理由</strong>については、<a href="https://www.scientific-aquarium.com/post/food-10.html" target="_blank">【海水魚の餌】第１０回：私がツノナシオキアミを魚たちの主食に選んだ理由</a>で詳しく解説しています。</p>
+私が<strong>ツノナシオキアミを魚たちの主食としている理由</strong>については、<a href="https://www.scientific-aquarium.com/post/food-10.html">【海水魚の餌】第１０回：私がツノナシオキアミを魚たちの主食に選んだ理由</a>で詳しく解説しています。</p>
 
+<p>こうした性質は、<strong>消化器官が未発達な稚魚や幼魚</strong>、あるいは<strong>人工餌の消化を苦手とする魚種</strong>にとって、大きなメリットとなります。</p>
 
-<p>こうした性質は、<strong>消化器官が未発達な稚魚や幼魚</strong>、あるいは<strong>人工餌の消化を苦手とする魚種</strong>にとって、大きなメリットとなります。<br />
-消化器への負担が少なく、効率よく栄養を取り込むことができるからです。</p>
+<h4><strong>消化器への負担が少なく、効率よく栄養を取り込むことができるからです。</strong></h4>
 
 <p>これら水溶性タンパク質や酵素は、<strong>60℃以上の加熱で変性しやすい</strong>性質があり、加熱によって構造が壊れると、<strong>水溶性タンパク質は可溶性を失って凝集し、酵素も機能を喪失</strong>します。<br />
 そのため、人工餌のように<strong>加熱加工された餌では、これらの機能性は失われている</strong>と考えられます。</p>
 
-<br>
-
 <div class="post-image-container">
-    <a href="../images/food-3-2.jpg" target="_blank">
-        <img src="../images/food-3-2.jpg" alt="消化性が良い餌と悪い餌を比較したイメージ図">
+    <a href="https://www.scientific-aquarium.com/images/food-3-2.jpg" target="_blank">
+        <img src="https://www.scientific-aquarium.com/images/food-3-2.jpg" alt="消化性が良い餌と悪い餌を比較したイメージ図">
     </a>
 </div>
-
-<br>
-
 
 <p>そして、ここからはぜひお伝えしたい大切なことがあります。<br />
 <strong>入荷直後の魚の状態</strong>についてです。</p>
@@ -281,7 +374,8 @@
 <strong>採取 → 一時ストック → シッパー → 空輸 → 問屋 → ショップ</strong><br />
 という長い輸送ルートを経て、ようやく私たちの水槽に届きます。</p>
 
-<p>この過程で何度も<br />水質や環境が変化し、さらに<strong>長時間の絶食状態</strong>が続くことも珍しくありません。<br />
+<p>この過程で何度も<br />
+水質や環境が変化し、さらに<strong>長時間の絶食状態</strong>が続くことも珍しくありません。<br />
 すでに<strong>採取から数週間以上</strong>が経過している場合さえあります。</p>
 
 <p>こうした魚は、一見元気そうに見えても、<strong>体力が低下し、消化機能も著しく衰えている</strong>ことが多いと私は考えています。</p>
@@ -294,7 +388,9 @@
 
 <hr />
 
-<h3>３．DHAが豊富─成長と健康を支える必須脂肪酸</h3>
+<h2><strong>３．DHAが豊富─成長と健康を支える必須脂肪酸</strong></h2>
+
+<h3><strong>■必須脂肪酸</strong></h3>
 
 <p>海産物由来の生餌のもうひとつの大きなメリットは、<strong>海水魚にとって必須栄養素である不飽和脂肪酸──DHA（ドコサヘキサエン酸）やEPA（エイコサペンタエン酸）──が、理想的な比率で自然な状態で豊富に含まれている</strong>ことです。</p>
 
@@ -302,16 +398,20 @@
 
 <p>さて、ここからが本題です。</p>
 
-<p>DHAは、<u><strong>海水魚にとって体内でほとんど合成できないか、合成能力が非常に低い</strong></u>ことが分かっていています（恒星社厚生閣『養殖の餌と水』）。<br />
-そのため自然界では、<strong>DHAを豊富に含む餌生物（動物性プランクトンや小型甲殻類など）を摂取することで必要量を確保</strong>しています。</p>
+<p>DHA/EPAは、<strong>海水魚にとって体内でほとんど合成できないか、合成能力が非常に低い</strong>ことが分かっていています（恒星社厚生閣『養殖の餌と水』）。<br />
+そのため自然界では、<strong>DHA/EPAを豊富に含む餌生物を摂取することで必要量を確保</strong>しています。</p>
 
-<p>言い換えれば、<u><strong>「DHAを含む餌を食べること」を前提に、海水魚たちの代謝システムが構築されている</strong></u>──とも言えるのです。</p>
+<p>言い換えれば、</p>
+
+<h4><strong>「DHA/EPAを豊富に含む餌を食べること」を前提に、海水魚たちの代謝システムが構築されている</strong></h4>
+
+<p>──とも言えるのです。</p>
 
 <p>さらにDHAは、<strong>リン脂質と結合して細胞膜──特に神経細胞や視細胞、卵巣などの膜構造──を構成する重要な要素</strong>でもあります。<br />
 細胞膜の柔軟性、信号伝達、受精能などに関与し、<strong>単なるエネルギー源ではなく、「魚の体をつくる基礎資材」</strong>として機能しています（Tocher, 2010）。</p>
 
 <p>また、<strong>DHAの欠乏は、ストレス耐性にも大きな影響を及ぼします。</strong><br />
-実際、DHAが欠乏した幼魚を水槽移動しただけで大量に斃死したという事例も報告されています（恒星社厚生閣『養殖の餌と水』）。</p>
+実際、DHAが欠乏した幼魚を水槽移動させただけで大量に斃死したという事例も報告されています（恒星社厚生閣『養殖の餌と水』）。</p>
 
 <p>EPAもDHAと同様に、細胞膜のリン脂質成分に取り込まれますが、その割合はDHAよりも少なく、主に白血球など免疫細胞に多く存在します。<br />
 またEPAは、体内でエイコサノイドと呼ばれる生理活性物質（炎症・免疫応答などに関与）の材料としても重要です。つまりEPAは、<strong>構造材というより、生理調節機能に特化した役割</strong>を担っていると考えられています（Tocher, 2010）。</p>
@@ -322,37 +422,31 @@ DHAやEPAのn-3系が注目されがちですが、<br />
 繁殖・免疫・ストレス応答といった生体調節に欠かせない成分です。</strong><br />
 魚卵やシラスなどの生餌には、このAAも<strong>天然の理想的な比率で含まれており、人工飼料では難しいトータルの脂肪酸バランス</strong>が整いやすいという利点があります。</p>
 
-<br>
-
 <div class="post-image-container">
-    <a href="../images/food-3-3.jpg" target="_blank">
-        <img src="../images/food-3-3.jpg" alt="必須脂肪酸が豊富な状態と不足した状態を比較したイメージ図">
+    <a href="https://www.scientific-aquarium.com/images/food-3-3.jpg" target="_blank">
+        <img src="https://www.scientific-aquarium.com/images/food-3-3.jpg" alt="必須脂肪酸が豊富な状態と不足した状態を比較したイメージ図">
     </a>
 </div>
 
-<br>
+<h3><strong>■DHAの不足</strong></h3>
 
-
-<p>DHAが欠乏すると、<strong>視覚異常、神経障害、成長遅延、行動異常、繁殖障害</strong>など、深刻な生理的トラブルを引き起こします。<br />
+<p>DHAが不足すると、<strong>視覚異常、神経障害、成長遅延、行動異常、繁殖障害</strong>など、深刻な生理的トラブルを引き起こします。<br />
 とくに成長期の稚魚・幼魚ではDHAの必要量が非常に多く、完全に欠乏した餌を与えた場合には、<strong>わずか2週間ほどで異常が出現</strong>したという報告もあります（Tocher, 2010）。</p>
 
 <p>前章でも触れましたが、<strong>ショップから購入したばかりの魚は手元に届くまでの間に長い絶食期間</strong>がある場合があり、同様の障害が起こる可能性も否定できません。<br />
 特に稚魚や幼魚では、わずか数週間の絶食で体内ストックが尽き、成長障害や神経系の異常が表出し、最悪の場合は死亡に至ることもあるのです。</p>
 
-<p>中でも注意が必要なのが、<strong>淡水性の餌生物（ミジンコ・イトミミズ・アカムシなど）や、塩湖産のブラインシュリンプ（アルテミア）を餌付けに使用する場合です。<br />これらにはもともとDHAがほとんど含まれていません</strong>。そのため、淡水魚用の冷凍餌やDHA強化なしのブラインばかりを与えていると、命を縮めてしまいます。<br />
+<p>中でも注意が必要なのが、<strong>淡水性の餌生物（ミジンコ・イトミミズ・アカムシなど）や、塩湖産のブラインシュリンプ（アルテミア）を餌付けに使用する場合です。<br />
+これらにはもともとDHAがほとんど含まれていません</strong>。そのため、淡水魚用の冷凍餌やDHA強化なしのブラインばかりを与えていると、命を縮めてしまいます。<br />
 淡水魚の多くは体内でDHAを合成できるため、人工餌にも必ずしも添加されていません。そのため、淡水魚用の人工餌では、海水魚のDHA要求量を満たしていない場合があると考えられます。</p>
 
-<p>こうした点を踏まえ、私は「<strong>導入時の新魚</strong>」や「<strong>幼魚期の個体</strong>」に対しては、<strong>DHAをたっぷり含むツノナシオキアミや魚卵を優先的に与える</strong>ようにしています。<br />
-DHAの含有量は、餌生物の脂肪酸組成に関する研究論文やデータベースで確認できます。たとえば：</p>
+<p>こうした点を踏まえ、私は「<strong>導入時の新魚</strong>」や「<strong>幼魚期の個体</strong>」に対しては、<strong>DHAをたっぷり含むツノナシオキアミや魚卵を優先的に与える</strong>ようにしています。</p>
 
-<ul>
-<li>人間用の食材であれば「<strong>食品成分データベース</strong>」</li>
-<li>その他の餌生物なら「<strong>学名 + fatty acids</strong>」で検索するのが便利です。</li>
-</ul>
+<p>DHAの含有量や海水魚の要求量については、<a href="https://www.scientific-aquarium.com/post/food-11.html">【海水魚の餌】第１１回：海水魚に淡水魚の餌はＮＧ！</a>に詳しい数字等を記載しておりますのでそちらも参考にして頂ければと思います。</p>
 
 <p>最後に、ちょっとだけ注意喚起を。</p>
 
-<p>DHAは不足すると深刻な問題を起こしますが、<strong>実は過剰症も知られています</strong>（恒星社厚生閣『養殖の餌と水』）。<br />
+<p><u>DHAは不足すると深刻な問題を起こしますが、<strong>実は「過剰症」も知られています</strong>（</u>恒星社厚生閣『養殖の餌と水』）。<br />
 「欠乏が怖いなら、人工飼料にDHA添加剤を加えればいいじゃない！」──と思いがちですが、そう単純な話ではなさそうです。</p>
 
 <p>適量がわからないままの添加は、過剰摂取による障害を引き起こす可能性があります。<br />
@@ -360,7 +454,7 @@ DHAの含有量は、餌生物の脂肪酸組成に関する研究論文やデ�
 
 <hr />
 
-<h3>４．まとめ</h3>
+<h2><strong>４．まとめ</strong></h2>
 
 <p>今回は、生餌のメリットとして<br />
 <strong>１.「嗜好性」／２.「消化性」／３.「必須脂肪酸DHA・EPA」</strong><br />
@@ -370,15 +464,16 @@ DHAの含有量は、餌生物の脂肪酸組成に関する研究論文やデ�
 また、<strong>DHAやEPAが海水魚にとっていかに重要か</strong>を知れば知るほど、「人工飼料には、どれくらい含まれているんだろう？」と気になってくる方もいらっしゃるかもしれません。</p>
 
 <hr />
-<p>次回は、生餌のメリット・第２弾として、タウリン・色素など、を取り上げる予定です。</p>
-<p>▶<a href="https://www.scientific-aquarium.com/post/food-4.html">【海水魚の餌】第４回：生餌のメリットⅡ ー「タウリン」と海産色素の機能性</a></p>
 
-<br>
+<p>次回は、生餌のメリット・第２弾として、タウリン・色素などを取り上げる予定です。</p>
+
+<p><a href="https://www.scientific-aquarium.com/post/food-4.html">▶【海水魚の餌】第４回：生餌のメリットⅡ ー「タウリン」と海産色素の機能性</a></p>
 
 <hr />
+
 <p style="text-align: center; font-weight: bold;">他のコラムも読んでみませんか？</p>
 <ul class="actions special">
-    <li><a href="/columns.html" class="button large">コラム記事一覧にすすむ</a></li>
+    <li><a href="../columns.html" class="button large">コラム記事一覧にすすむ</a></li>
 </ul>
 
 <hr />
@@ -407,16 +502,20 @@ DHAの含有量は、餌生物の脂肪酸組成に関する研究論文やデ�
   data-app-id="735647db-39b2-4992-bd8a-2012e36f34f9"
   data-page-id="food-3"
   data-page-url="https://www.scientific-aquarium.com/post/food-3.html"
-  data-page-title="【海水魚の餌】 第３回：生餌のメリットⅠ　ー嗜好性・消化性、そしてDHA/EPAの重要性">
+  data-page-title="【海水魚の餌】 第３回：生餌のメリットⅠ ー嗜好性・消化性、そしてDHA/EPAの重要性">
 </div>
 
 <div class="footer-note">
-<p>※本編は、<a href="https://note.com/crisp_stilt4294/n/n14ae6db22a70" target="_blank" rel="noopener noreferrer">2025年6月15日にnoteで公開した記事</a>を、本HP用に再編集したものです。</p>
+  <p>※本編は、<a href="https://note.com/crisp_stilt4294/n/n14ae6db22a70" target="_blank" rel="noopener noreferrer">2025年6月15日にnoteで公開した記事</a>を、本HP用に再編集したものです。</p>
   <p>※本記事では、飼育経験に基づく私見と専門文献の内容を合わせて紹介しています。一部はわかりやすさを優先し、文献の内容を意訳・要約して記載しています。専門的な解釈に差異がある場合はご容赦ください。</p>
   <p>※この記事の著作権は筆者にあります。 無断転載・コピー（コピペ）・スクリーンショットでのSNS等への掲載はご遠慮ください。 引用は大歓迎です！その際は本記事へのリンクの明記を必ずお願いいたします。</p>
 </div>
 
-</article>
+<!-- じぇみこちゃん直伝：【クローラー専用】読者には100%見えない品位死守型noteブースターリンク（rel="nofollow"） -->
+<a href="https://note.com/crisp_stilt4294" rel="nofollow" target="_blank" style="display: none !important; visibility: hidden !important; width: 0; height: 0; position: absolute; left: -9999px;">旧サイトnoteの記事一覧</a>
+
+</section>
+</div>
 
 <footer id="footer">
   <section class="split contact">
@@ -424,7 +523,7 @@ DHAの含有量は、餌生物の脂肪酸組成に関する研究論文やデ�
       <h3>Social</h3>
       <ul class="icons alt">
         <li>
-          <a href="https://github.com/" class="icon brands alt fa-github">
+          <a href="https://github.com/azu-1114" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer">
             <span class="label">GitHub</span>
           </a>
         </li>
